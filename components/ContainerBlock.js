@@ -10,7 +10,6 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: "E Shen Gan's Portfolio",
     description: `I am a beginner software developer/programmer seeking for fresh graduate job placements`,
-    image: "",
     type: "website",
     ...customMeta,
   };
