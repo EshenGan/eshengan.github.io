@@ -14,4 +14,5 @@ my experiences in extra-curricular/voluntary/part-time job activities
 details about my  education since high school 
 
 ## Deployment
-Vercel
+Deployed with Vercel
+https://eshen-portfolio-web-hpa7f6ea3-eshengan.vercel.app/
