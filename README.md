@@ -15,4 +15,4 @@ details about my  education since high school
 
 ## Deployment
 Deployed with Vercel
-https://eshen-portfolio-web-hpa7f6ea3-eshengan.vercel.app/
+https://eshen-portfolio-web.vercel.app
