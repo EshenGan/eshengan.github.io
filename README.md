@@ -12,3 +12,6 @@ my experiences in extra-curricular/voluntary/part-time job activities
 
 ## Education
 details about my  education since high school 
+
+## Deployment
+Vercel
