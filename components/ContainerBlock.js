@@ -8,8 +8,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "E Shen Gan's Portfolio",
-    description: `I am a beginner software developer/programmer seeking for fresh graduate job placements`,
+    title: "E Shen Gan",
+    description: `I am a beginner software and game developer/programmer seeking for fresh graduate job placements`,
     type: "website",
     ...customMeta,
   };
@@ -28,15 +28,13 @@ export default function ContainerBlock({ children, ...customMeta }) {
           href={`https://yourwebsite.com${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Manu Arora" />
+        <meta property="og:site_name" content="E Shen Gan" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
-        <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@mannupaaji" />
+        <meta name="twitter:site" content="@EshenGan" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
-        <meta name="twitter:image" content={meta.image} />
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
