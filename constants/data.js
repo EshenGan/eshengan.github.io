@@ -1,15 +1,15 @@
 const userData = {
   githubUsername: "EshenGan",
   name: "E Shen Gan",
-  designation: "Beginner Software Developer/Programmer",
+  designation: "Undergrad Student - CS and AI Major",
  //avatarUrl: "/avatar.png",
   email: "eshenganofficial@gmail.com",
   phone: "+44 7825177132",
   address: "Nottingham, England, United Kingdom",
   projects: [
     {
-      title: "FPS with Human-like NPC",
-      link: "https://github.com/EshenGan/Human-like-Non-Player-Character-Creation-in-First-Person-Shooter-with-Machine-Learning.git",
+      title: "Final Year Project",
+      link: "https://github.com/EshenGan/Final-Year-Project",
       imgUrl: "/fyp.png",
     },
     {
@@ -35,16 +35,16 @@ const userData = {
   ],
   about: {
     title:
-      "I'm an international final year student with great passion for software and games development",
+      "I'm an international student from University of Nottingham with passion for software and games development",
     description: [
       `Team player, detail-oriented, adaptive`,
-      `Soon to gradute full-time student enrolled in University of Notingham, BSc (Hons) Computer Science with Artifical Intelligence`,
-      `Somewhat of a self-taught games developer, using Unity and C#`,
+      `Soon to gradute full-time student enrolled in BSc (Hons) Computer Science with Artifical Intelligence`,
+      `Somewhat of a self-taught games developer, with Unity and C#`,
       `Other than video games, I do have interests and experience in software development, more precisely dekstop application software`,
       `I have some knowledge and exposure to the field of Machine Learning/Deep Learning`,
     ],
-    currentProject: "FPS with Human-like NPC",
-    currentProjectUrl: "",
+    currentProject: "DRL Agent in Action-Adventure Stage-based Game",
+    currentProjectUrl: "https://github.com/EshenGan/Final-Year-Project",
   },
   education:[
     {
@@ -54,7 +54,7 @@ const userData = {
       link:"https://www.nottingham.ac.uk/",
       desc1:"BSc(Hons) Computer Science with Artificial Intelligence",
       desc2:"Third and final year of my bachelor's degree as an international transfer student in UK campus",
-      desc3:"", //weighted average of year 3
+      desc3:"Ongoing final semester, expected graduation by end of July 2022", //weighted average of year 3
       imgUrl:"",// year 3 transcript
     },
     {
@@ -65,7 +65,7 @@ const userData = {
       desc1:"BSc(Hons) Computer Science with Artificial Intelligence",
       desc2:"Year 2 - weighted average of 68[Provisional]",
       desc3:"Year 1 - weighted average of 75[Provisional]",
-      imgUrl:"",//show year1 and year2 results
+      imgUrl:"/y1y2_transcript.png",//show year1 and year2 results
     },
     {
       title: "Foundation in Science 3 Semesters",
@@ -73,7 +73,7 @@ const userData = {
       year:"2018 - 2019",
       link:"https://www.nottingham.edu.my/index.aspx",
       desc1:"Foundation in Science 3 Semester - weighted average of 79",
-      imgUrl:"",//show foundation results
+      imgUrl:"/foundation_transcript.jpg",//show foundation results
     },
     {
       title: "High School",
@@ -81,8 +81,9 @@ const userData = {
       year:"2013 - 2017",
       link:"https://smkstfrancis.edupage.org/",
       desc1:" Scored straight A's for Malaysian Education Certificate(known as SPM) for which 10 subjects was taken",
-      desc2: "6A+, 4A",
-      desc3: "Physics[A+],Chemistry[A+],Biology[A],Mathematics[A+],Additional Mathematics[A]",
+      desc2:"6A+, 4A",
+      desc3:"Physics[A+],Chemistry[A+],Biology[A]",
+      desc4:"Mathematics[A+],Additional Mathematics[A]",
       imgUrl:"/spmresult.jpg",//show spm result
     },
   ],
@@ -145,7 +146,7 @@ const userData = {
     },
   ],
   resumeUrl:
-  "https://drive.google.com/file/d/1vucLKUuJA2DAhAZeCyP7AY4l4si-I6kd/view?usp=sharing",
+  "https://drive.google.com/file/d/1q4ZbJE86TL_KEUeSNIxATDvoPMP-BGwD/view?usp=sharing",
 socialLinks: {
   instagram: "https://www.instagram.com/pinkshtick_es/",
   twitter: "https://twitter.com/EshenGan",

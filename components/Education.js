@@ -20,6 +20,7 @@ export default function Education() {
                 desc1={edu.desc1}
                 desc2={edu.desc2}
                 desc3={edu.desc3}
+                desc4={edu.desc4}
                 year={edu.year}
                 company={edu.company}
                 companyLink={edu.link}
@@ -41,9 +42,9 @@ export default function Education() {
   );
 }
 
-const EducationCard = ({ title, desc1,desc2,desc3, year, company, companyLink,imgUrl }) => {
+const EducationCard = ({ title, desc1,desc2,desc3,desc4, year, company, companyLink,imgUrl }) => {
   return (
-    <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
+    <div className="relative education-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
       <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-300 font-bold dark:text-gray-800">
         {year}
       </h1>
@@ -54,10 +55,11 @@ const EducationCard = ({ title, desc1,desc2,desc3, year, company, companyLink,im
       <p className="text-gray-600 dark:text-gray-400 my-2">{desc1}</p>
       <p className="text-gray-600 dark:text-gray-400 my-2">{desc2}</p>
       <p className="text-gray-600 dark:text-gray-400 my-2">{desc3}</p>
+      <p className="text-gray-600 dark:text-gray-400 my-2">{desc4}</p>
       <img
             src={imgUrl}
             //alt="image"
-            //className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
+            //className="transform hover:scale-75 transition duration-2000 ease-out object-cover h-full w-full"
           />
     </div>
   );
