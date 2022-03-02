@@ -55,7 +55,7 @@ const userData = {
       desc1:"BSc(Hons) Computer Science with Artificial Intelligence",
       desc2:"Third and final year of my bachelor's degree as an international transfer student in UK campus",
       desc3:"Ongoing final semester, expected graduation by end of July 2022", //weighted average of year 3
-      imgUrl:"",// year 3 transcript
+      imgUrl:"3rdyear.png",// year 3 transcript
     },
     {
       title: "First and Second Year",
